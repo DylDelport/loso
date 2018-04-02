@@ -166,3 +166,12 @@ $(document).ready(function() {
     });
     
 });
+
+// Add animation / Initialize Wow
+$(document).ready(function() {
+   
+    'use strict';
+    
+    new WOW().init();
+    
+});
